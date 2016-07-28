@@ -1,8 +1,13 @@
-impot java.io.*;
-class hello
-{
-public static void main (String args[])
-{
-syatem.out.println("Welcome");
-}
+package com.tutorialspoint;
+
+public class hello {
+   private String message;
+
+   public void setMessage(String message){
+      this.message  = message;
+   }
+
+   public void getMessage(){
+      System.out.println("Your Message : " + message);
+   }
 }
